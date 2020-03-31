@@ -1,0 +1,106 @@
+html,
+body,
+#root,
+#root > div {
+  height: 800;
+  margin: 0;
+}
+
+.blinking {
+  animation: blinkingText 1.5s infinite;
+  text-decoration: none;
+}
+@keyframes blinkingText {
+  0% {
+    color: red;
+  }
+  49% {
+    color: white;
+  }
+  60% {
+    color: transparent;
+  }
+  99% {
+    color: transparent;
+  }
+  100% {
+    color: red;
+  }
+}
+.App1 {
+  background: #70e1f5; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ffd194,
+    #70e1f5
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ffd194,
+    #70e1f5
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  background: #d9a7c7;
+  background: -webkit-linear-gradient(to right, #fffcdc, #d9a7c7);
+  background: linear-gradient(to right, #fffcdc, #d9a7c7);
+}
+
+.news-card {
+  position: relative;
+  width: 250px;
+  height: auto;
+  border-radius: 4px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.news-card:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.3), 0 10px 10px rgba(0, 0, 0, 0.33);
+}
+
+.news-card .image {
+  max-width: 100%;
+  height: auto;
+  opacity: 0.8;
+}
+
+.news-card .news-text {
+  padding: 5px 10px;
+}
+
+.news-card .title {
+  color: #505050;
+  font-size: 20px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.news-card .description {
+  color: #595959;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.news-card .url {
+  color: #595959;
+  font-size: 16px;
+}
+
+.news-card .url:hover {
+  color: #404040;
+}
+
+.news-card .topic {
+  position: absolute;
+  background: #ff8a65;
+  font-size: 12px;
+  color: #fff;
+  padding: 4px 10px;
+  font-weight: bold;
+  top: 0;
+  right: 0;
+}

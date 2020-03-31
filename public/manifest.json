@@ -1,0 +1,30 @@
+{
+  "short_name": "CoronaLive",
+  "name": "Covid-19 Live Stats",
+  "theme_color": "#3F51B5",
+  "background_color": "#3F51B5",
+  "display": "fullscreen",
+  "icons": [
+    {
+      "src": "./logod.gif",
+      "type": "image/gif",
+      "sizes": "48x48"
+    },
+    {
+      "src": "./logoc.gif",
+      "type": "image/gif",
+      "sizes": "96x96"
+    },
+    {
+      "src": "./logob.gif",
+      "type": "image/gif",
+      "sizes": "144x144"
+    },
+    {
+      "src": "./logoa.gif",
+      "type": "image/gif",
+      "sizes": "192x192"
+    }
+  ],
+  "start_url": "/?utm_source=launcher"
+}
