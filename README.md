@@ -29,6 +29,7 @@ A simple progressive web app that shows the number of COVID19 cases in India.
 ### Technology Used ###
 - [Reactjs](https://reactjs.org/)
 - [Material-UI](https://material-ui.com/)
+- [Chartjs](https://www.chartjs.org/)
 - [api-covid-19-india](https://api.rootnet.in/)
 - [Api-covid19-in](https://api-covid19-in.herokuapp.com/)
 
